@@ -4,6 +4,8 @@ public class Program
 {
     public static void Main(string[] args)
     {
+        Console.Clear();
+
         Console.WriteLine("What is your name?");
         string name = Console.ReadLine();
         Console.WriteLine("What is your age?");
@@ -36,6 +38,6 @@ public class Program
         Console.Write("My Friends name is " + name + ". They are " + age + " old. They have " + eyeColor + " eyes and " + hairColor + "hair. Their shoe size is a size " 
         + shoeSize + ". Their favorite color is " + color + ". Their favorite tv show is " + tvShow + ". Their favorite teacher is " + teacher + " and their favorite class is " 
         + favoriteClass + ". Their favorite holiday is " + holiday + " and their favorite season is " + season + ". Their dream job is to be a " + dreamJob + ". They have " 
-        + siblings + "siblings. " + "In five years they will be " + (Age+5) + " years old." );
+        + siblings + " siblings. " + "In five years they will be " + (Age+5) + " years old." );
     }
 }
